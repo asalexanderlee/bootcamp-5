@@ -8,8 +8,8 @@ Now that you've gotten a little familiarity with React, use `create-react-app` t
 
 * Allow a user to add and remove todos.
 * Allow user to mark a todo as a complete/incomplete.
-* When a todo is removed, it should move to a completed section. If a completed todo is marked as incomplete, the todo should move back to the main list. 
-* Allow users to set due dates. 
+* When a todo is marked as complete, it should move to a completed section. If a completed todo is marked as incomplete, the todo should move back to the main list. 
+* Allow user to set due dates. 
 * Allow user to reorder todos alphabetically or by due date. 
 * Allow user to clear all todos. 
 
