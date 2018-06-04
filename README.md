@@ -1,7 +1,18 @@
 # bootcamp-5
 
-I'm out of town today. Your task is to complete [this react tutorial](https://reactjs.org/tutorial/tutorial.html). It is a _very_ good start to the world of React. Don't worry about grasping everything. Just try to understand the basics, and we'll dive in head first on Monday. 
+## Release 1
+Your task is to complete [this react tutorial](https://reactjs.org/tutorial/tutorial.html). It is a _very_ good start to the world of React. Don't worry about grasping everything. Just try to understand the basics.
 
-Wrapping your head around all of this should take you the entire day. If you finish with the first tutorial, move on to [other ones](https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/). There are hundreds out there. 
+## Release 2 
+Now that you've gotten a little familiarity with React, use `create-react-app` to make a very basic todolist. The application should do the following: 
 
-Good luck and happy weekend! I'll be on/off of Slack throughout the day as my connection allows. 
+* Allow a user to add and remove todos.
+* Allow user to mark a todo as a complete/incomplete.
+* When a todo is removed, it should move to a completed section. If a completed todo is marked as incomplete, the todo should move back to the main list. 
+* Allow users to set due dates. 
+* Allow user to reorder todos alphabetically or by due date. 
+* Allow user to clear all todos. 
+
+Do this is a branch called `[usernames]-todo1`. 
+
+Note: You should write this excercise exlusively on the front end. Do not try to connect to a server.
