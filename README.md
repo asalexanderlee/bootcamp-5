@@ -12,6 +12,7 @@ Now that you've gotten a little familiarity with React, use `create-react-app` t
 * Allow user to set due dates. 
 * Allow user to reorder todos alphabetically or by due date. 
 * Allow user to clear all todos. 
+* Allow user to color-code todos.
 
 Do this is a branch called `[usernames]-todo1`. 
 
