@@ -33,4 +33,4 @@ Let's continue with the progress we made in `Release 1` by adding the following 
 
 ## Release 3
 
-Now that's we've got our todo app infrastructure down, spend whatever time you have left making it look ~_ pretty_~. I'll be looking at your CSS in our next code review, so don't cut corners!
+Now that's we've got our todo app infrastructure down, spend whatever time you have left making it look `~~~*pretty*~~~`. I'll be looking at your CSS in our next code review, so don't cut corners!
