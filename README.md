@@ -27,7 +27,7 @@ Let's continue with the progress we made in `Release 1` by adding the following 
 * Implement an undo button that allows users to undo between 0-10 times.
 * Allow users to star/un-star todos.
 * Allow users to export their todos to a CSV.
-* Allow users to sort their todos into folders. _There are many ways to solve this challenge. Think thoroughly about your design before you code it. If you are ahead, implement this feature with [drag and drop](http://react-dnd.github.io/react-dnd/). Your butt will be kicked, but this is great practice for the future._
+* Allow users to sort their todos into folders. _There are many ways to implement this feature. Think thoroughly about your design before you code it. If you are ahead, implement this feature with [drag and drop](http://react-dnd.github.io/react-dnd/). Your butt will be kicked, but this is great practice for the future._
 
 **IMPORTANT: All data (stars, undos, color-codes, due dates, etc.) should be stored in the state. Take great care when developing your data structure. It will make or break your app!**
 
