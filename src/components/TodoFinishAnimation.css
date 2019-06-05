@@ -1,0 +1,13 @@
+.TodoFinishAnimation {
+  transition-duration: 1s;
+  overflow: hidden;
+  height: 20px;
+}
+.rainbow {
+  background-image: linear-gradient(to right, #ff194f, #8c9fff, #00d1b5, #17c45f);
+  height: 5px;
+  /* box-shadow: 0 -5px 50px #17c45f; */
+  position: relative;
+  top: 15px;
+  bottom: -10px;
+}

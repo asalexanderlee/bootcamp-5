@@ -1,0 +1,26 @@
+.TodoList {
+  margin-top: 20px;
+}
+
+.TodoList .flex button {
+  border: none;
+  font-size: 14px;
+  font-family: "Pacifico", cursive;
+  margin: 0px 4px 8px 1px;
+  color: #8c9fff;
+  outline: none;
+  cursor: pointer;
+}
+.TodoList .flex button:hover {
+  background-color: #a0dfff30;
+}
+
+.TodoList .sort {
+  text-align: left;
+}
+
+.TodoList .flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}

@@ -1,36 +1,68 @@
-# bootcamp-5
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Release 0
+## Available Scripts
 
-Your task is to complete [this react tutorial](https://reactjs.org/tutorial/tutorial.html). It is a _very_ good start to the world of React. Don't worry about grasping everything. Just try to understand the basics.
+In the project directory, you can run:
 
-## Release 1
+### `npm start`
 
-Now that you've gotten a little familiarity with React, use `create-react-app` to make a very basic todo list. The application should do the following:
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Allow a user to add and remove todos.
-* Allow user to mark a todo as a complete/incomplete.
-* When a todo is marked as complete, it should move to a completed section. If a completed todo is marked as incomplete, the todo should move back to the main list.
-* Allow user to set due dates.
-* Allow user to reorder todos alphabetically or by due date.
-* Allow user to clear all todos.
-* Allow user to color-code todos.
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Do this in a branch called `[usernames]-todo1`.
+### `npm test`
 
-Note: You should write this exercise exclusively on the front end. Do not try to connect to a server.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Release 2
+### `npm run build`
 
-Let's continue with the progress we made in `Release 1` by adding the following functionality:
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* Implement an undo button that allows users to undo between 0-10 times.
-* Allow users to star/un-star todos.
-* Allow users to export their todos to a CSV.
-* Allow users to sort their todos into folders. _There are many ways to implement this feature. Think thoroughly about your design before you code it. If you are ahead, implement this feature with [drag and drop](http://react-dnd.github.io/react-dnd/). Your butt will be kicked, but this is great practice for the future._
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-**IMPORTANT: All data (stars, undos, color-codes, due dates, etc.) should be stored in the state. Take great care when developing your data structure. It will make or break your app!**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Release 3
+### `npm run eject`
 
-Now that's we've got our todo app infrastructure down, spend whatever time you have left making it look `~~~*pretty*~~~`. I'll be looking at your CSS in our next code review, so don't cut corners!
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

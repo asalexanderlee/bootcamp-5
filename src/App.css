@@ -1,0 +1,15 @@
+.App {
+  width: 60%;
+  margin: 0 auto;
+  /* border: 2px solid lightgrey; */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 38px;
+  margin-top: -10px;
+}

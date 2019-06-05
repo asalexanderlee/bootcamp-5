@@ -1,0 +1,59 @@
+.Todo {
+  --x-width: 35px;
+  --date-width: 100px;
+  --date-right-margin: 5px;
+  margin-bottom: -27px;
+}
+.todo-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #efefef;
+  padding-left: 15px;
+  margin: 8px 0px;
+  text-align: left;
+}
+
+.todo-wrapper p {
+  width: calc(100% - var(--x-width) - var(--date-width) - var(--date-right-margin));
+}
+.todo-wrapper input[type="checkbox"] {
+  margin-top: 19px;
+  margin-left: -5px;
+  margin-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.todo-wrapper button {
+  font-size: 23px;
+  color: #ff194f90;
+  border: none;
+  background-color: transparent;
+  width: var(--x-width);
+  height: var(--x-width);
+  position: relative;
+  top: 11px;
+  cursor: pointer;
+  outline: none;
+}
+.todo-wrapper button:hover {
+  color: #ff194f;
+}
+
+.Todo .TodoFinishAnimation {
+  position: relative;
+  top: -28px;
+}
+
+.Todo .DatePicker {
+  font-size: 14px;
+  background-color: inherit;
+  border: none;
+  width: var(--date-width);
+  position: relative;
+  top: 16px;
+  text-align: right;
+  margin-right: var(--date-right-margin);
+  outline: none;
+  cursor: pointer;
+  color: #00bac4;
+}

@@ -1,0 +1,47 @@
+.ControlPanel {
+  position: fixed;
+  left: 15px;
+  width: calc(10% - 35px);
+  padding: 10px;
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+  margin-top: -15px;
+  max-width: 170px;
+  border-radius: 10px;
+}
+.ControlPanel:hover {
+  box-shadow: 0 0 10px lightgray;
+}
+.ControlPanel button {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: #ff194f80;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.ControlPanel button:hover {
+  color: #ff194f;
+}
+.ControlPanel .redo-btn {
+  transform: scaleX(-1);
+}
+.ControlPanel .undo-btn,
+.ControlPanel .redo-btn {
+  font-size: 20px;
+  margin-top: 7px;
+}
+.ControlPanel .export-btn {
+  font-size: 18px;
+  transform: scaleY(-1);
+  margin-top: 6px;
+}
+.ControlPanel .clear-btn {
+  font-size: 18px;
+  margin-top: 1px;
+}
+.ControlPanel .flex {
+  display: flex;
+  flex-wrap: wrap;
+}
